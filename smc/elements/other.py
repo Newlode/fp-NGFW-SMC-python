@@ -9,6 +9,8 @@ will define the format when calling blocklist functions.
 from smc.base.decorators import cached_property
 from smc.base.model import Element, ElementCreator, ElementList
 from smc.base.structs import NestedDict
+    from smc.base.util import element_resolver
+
 
 
 class Category(Element):
